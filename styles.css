@@ -1,0 +1,56 @@
+footer {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  bottom: 0%;
+  position: relative;
+  line-height: 40px;
+  border-top: 2px solid black;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: var(--gray);
+}
+
+/* Style for the data lists */
+dl {
+  color: var(--blue);
+  font-size: 20px;
+}
+
+/* Style for the form */
+
+.inquiry {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.inquiry table {
+  width: 100%;
+}
+
+.inquiry textarea {
+  width: 95%;
+  resize: vertical;
+  min-height: 100px;
+  background: transparent;
+}
+
+input {
+  background: transparent;
+}
+button {
+  padding: 10px 0;
+  color: black;
+  border: 1px solid var(--blue);
+  width: 100%;
+  background: transparent;
+}
+form {
+  padding: 5% 5%;
+  border: 1px solid var(--blue);
+}

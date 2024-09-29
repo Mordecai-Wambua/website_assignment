@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>careerOwl</title>
+    <link rel="icon" href="owl.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      C A R E E R O W L
+      <div class="icon">
+        <img src="owl.jpg" alt="icon" />
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="index.html">Home</a><a href="product.html">Products</a
+      ><a href="about.html">About</a><a href="enquire.html">Enquire</a>
+      <a href="form.html">Form</a>
+    </div>
+
+    <div class="presents">
+      <h2>Stand a chance to get reviewed for either your cv or resume</h2>
+      <p>
+        opportunity to get reviewed, get pointers and even opportunities by
+        sharing your credentials. <br />
+        Good luck
+      </p>
+    </div>
+
+    <div class="form">
+      <form action="/submit" method="POST" enctype="multipart/form-data">
+        <label for="file">Upload File (pdf):</label>
+        <input type="file" id="file" name="file" accept=".pdf" /><br /><br />
+
+        <!-- Date Input -->
+        <label for="date">Upload Date:</label>
+        <input type="date" id="date" name="date" /><br /><br />
+
+        <!-- Radio Buttons -->
+        <label>Select Gender:</label><br />
+        <input type="radio" id="male" name="gender" value="male" />Male
+        <br />
+        <input type="radio" id="female" name="gender" value="female" />Female
+        <br />
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
